@@ -1,0 +1,1124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./Image/favicon.ico" type="image/x-icon" />
+    <title>Gujarat Farsan Express</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- EmailJS CDN -->
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <nav>
+        <div class="logo">
+          <span class="logo-text"
+            >Gujarati<span class="accent">Farsan</span></span
+          >
+        </div>
+        <div class="nav-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+      <!-- Mobile Navigation -->
+      <div class="mobile-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="hero"
+      style="
+        background-image: url('https://images.pexels.com/photos/4449068/pexels-photo-4449068.jpeg');
+      "
+    >
+      <div class="hero-content">
+        <h1>Authentic Gujarati Farsan</h1>
+        <p>
+          Taste the tradition of Gujarat with our premium quality farsan items
+        </p>
+        <a href="#products" class="cta-button">Explore Products</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-container">
+        <h2>About Us</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p class="highlight">
+              Welcome to Gujarati Farsan - A Taste of Authentic Gujarat!
+            </p>
+            <p>
+              Founded by <span class="owner-name">Kartik Khandelwal</span> in
+              2024, we take pride in delivering the most authentic Gujarati
+              farsan experience across India.
+            </p>
+            <div class="about-features">
+              <div class="feature">
+                <i class="fas fa-check-circle"></i>
+                <span>100% Authentic Gujarati Recipes</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-medal"></i>
+                <span>Premium Quality Ingredients</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-truck"></i>
+                <span>Pan India Delivery</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-certificate"></i>
+                <span>FSSAI Certified Kitchen</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <span>Hygienic Packaging</span>
+              </div>
+            </div>
+            <p class="commitment">
+              Our commitment to quality and hygiene is unwavering. Every product
+              is prepared in our state-of-the-art kitchen under strict quality
+              control measures, ensuring you get nothing but the best.
+            </p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">5000+</span>
+              <span class="stat-label">Happy Customers</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">25+</span>
+              <span class="stat-label">Product Varieties</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Pure Ingredients</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+      <h2>Our Products</h2>
+
+      <!-- Category Filter Buttons -->
+      <div class="category-filter">
+        <button class="filter-btn active" data-category="all">All Items</button>
+        <button class="filter-btn" data-category="namkeen">Namkeen</button>
+        <button class="filter-btn" data-category="khakhra">Khakhra</button>
+        <button class="filter-btn" data-category="thepla">Thepla</button>
+        <button class="filter-btn" data-category="sweets">Sweets</button>
+        <button class="filter-btn" data-category="dhokla">Dhokla</button>
+      </div>
+
+      <div class="product-grid">
+        <!-- Namkeen Products (6 items) -->
+        <div class="product-card" data-category="namkeen">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg"
+              alt="Special Namkeen Mix"
+            />
+            <span class="product-tag">Best Seller</span>
+          </div>
+          <div class="product-info">
+            <h3>Special Namkeen Mix</h3>
+            <p>Mix of spicy and crunchy snacks</p>
+            <div class="product-price">
+              <span class="price">₹149</span>
+              <span class="weight">/ 250g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Special Namkeen Mix"
+              data-price="149"
+              data-image="https://images.pexels.com/photos/2474661/pexels-photo-2474661.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="namkeen">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/4346329/pexels-photo-4346329.jpeg"
+              alt="Masala Chivda"
+            />
+            <span class="product-tag">Popular</span>
+          </div>
+          <div class="product-info">
+            <h3>Masala Chivda</h3>
+            <p>Light and crispy flattened rice mixture</p>
+            <div class="product-price">
+              <span class="price">₹129</span>
+              <span class="weight">/ 200g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Masala Chivda"
+              data-price="129"
+              data-image="https://images.pexels.com/photos/4346329/pexels-photo-4346329.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="namkeen">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg"
+              alt="Sev Bhujia"
+            />
+            <span class="product-tag">Must Try</span>
+          </div>
+          <div class="product-info">
+            <h3>Sev Bhujia</h3>
+            <p>Crunchy gram flour noodles</p>
+            <div class="product-price">
+              <span class="price">₹99</span>
+              <span class="weight">/ 200g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Sev Bhujia"
+              data-price="99"
+              data-image="https://images.pexels.com/photos/2067396/pexels-photo-2067396.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="namkeen">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/2067398/pexels-photo-2067398.jpeg"
+              alt="Masala Peanuts"
+            />
+            <span class="product-tag">Spicy</span>
+          </div>
+          <div class="product-info">
+            <h3>Masala Peanuts</h3>
+            <p>Spicy coated peanuts</p>
+            <div class="product-price">
+              <span class="price">₹119</span>
+              <span class="weight">/ 200g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Masala Peanuts"
+              data-price="119"
+              data-image="https://images.pexels.com/photos/2067398/pexels-photo-2067398.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="namkeen">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/2067397/pexels-photo-2067397.jpeg"
+              alt="Dal Moth"
+            />
+            <span class="product-tag">Classic</span>
+          </div>
+          <div class="product-info">
+            <h3>Dal Moth</h3>
+            <p>Traditional lentil mixture</p>
+            <div class="product-price">
+              <span class="price">₹139</span>
+              <span class="weight">/ 250g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Dal Moth"
+              data-price="139"
+              data-image="https://images.pexels.com/photos/2067397/pexels-photo-2067397.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="namkeen">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/2067395/pexels-photo-2067395.jpeg"
+              alt="Tikha Mixture"
+            />
+            <span class="product-tag">Extra Hot</span>
+          </div>
+          <div class="product-info">
+            <h3>Tikha Mixture</h3>
+            <p>Extra spicy mixed namkeen</p>
+            <div class="product-price">
+              <span class="price">₹159</span>
+              <span class="weight">/ 250g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Tikha Mixture"
+              data-price="159"
+              data-image="https://images.pexels.com/photos/2067395/pexels-photo-2067395.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Khakhra Products -->
+        <div class="product-card" data-category="khakhra">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/6941026/pexels-photo-6941026.jpeg"
+              alt="Masala Khakhra"
+            />
+            <span class="product-tag">Popular</span>
+          </div>
+          <div class="product-info">
+            <h3>Masala Khakhra</h3>
+            <p>Crispy and spicy traditional snack</p>
+            <div class="product-price">
+              <span class="price">₹199</span>
+              <span class="weight">/ 400g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Masala Khakhra"
+              data-price="199"
+              data-image="https://images.pexels.com/photos/6941026/pexels-photo-6941026.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="khakhra">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/6941027/pexels-photo-6941027.jpeg"
+              alt="Methi Khakhra"
+            />
+            <span class="product-tag">Healthy</span>
+          </div>
+          <div class="product-info">
+            <h3>Methi Khakhra</h3>
+            <p>Healthy fenugreek flavored crispy snack</p>
+            <div class="product-price">
+              <span class="price">₹179</span>
+              <span class="weight">/ 350g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Methi Khakhra"
+              data-price="179"
+              data-image="https://images.pexels.com/photos/6941027/pexels-photo-6941027.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="khakhra">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/6941028/pexels-photo-6941028.jpeg"
+              alt="Jeera Khakhra"
+            />
+            <span class="product-tag">Classic</span>
+          </div>
+          <div class="product-info">
+            <h3>Jeera Khakhra</h3>
+            <p>Classic cumin flavored crispy delight</p>
+            <div class="product-price">
+              <span class="price">₹169</span>
+              <span class="weight">/ 350g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Jeera Khakhra"
+              data-price="169"
+              data-image="https://images.pexels.com/photos/6941028/pexels-photo-6941028.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="khakhra">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/6941029/pexels-photo-6941029.jpeg"
+              alt="Pizza Khakhra"
+            />
+            <span class="product-tag">New</span>
+          </div>
+          <div class="product-info">
+            <h3>Pizza Khakhra</h3>
+            <p>Fusion pizza flavored crispy snack</p>
+            <div class="product-price">
+              <span class="price">₹189</span>
+              <span class="weight">/ 350g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Pizza Khakhra"
+              data-price="189"
+              data-image="https://images.pexels.com/photos/6941029/pexels-photo-6941029.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="khakhra">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/6941030/pexels-photo-6941030.jpeg"
+              alt="Schezwan Khakhra"
+            />
+            <span class="product-tag">Spicy</span>
+          </div>
+          <div class="product-info">
+            <h3>Schezwan Khakhra</h3>
+            <p>Spicy Indo-Chinese flavored crispy treat</p>
+            <div class="product-price">
+              <span class="price">₹199</span>
+              <span class="weight">/ 350g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Schezwan Khakhra"
+              data-price="199"
+              data-image="https://images.pexels.com/photos/6941030/pexels-photo-6941030.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="khakhra">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/6941031/pexels-photo-6941031.jpeg"
+              alt="Plain Khakhra"
+            />
+            <span class="product-tag">Basic</span>
+          </div>
+          <div class="product-info">
+            <h3>Plain Khakhra</h3>
+            <p>Traditional plain crispy khakhra</p>
+            <div class="product-price">
+              <span class="price">₹149</span>
+              <span class="weight">/ 350g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Plain Khakhra"
+              data-price="149"
+              data-image="https://images.pexels.com/photos/6941031/pexels-photo-6941031.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Thepla Products (6 items) -->
+        <div class="product-card" data-category="thepla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg"
+              alt="Methi Thepla"
+            />
+            <span class="product-tag">Fresh</span>
+          </div>
+          <div class="product-info">
+            <h3>Methi Thepla</h3>
+            <p>Healthy and delicious fenugreek flatbread</p>
+            <div class="product-price">
+              <span class="price">₹249</span>
+              <span class="weight">/ 500g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Methi Thepla"
+              data-price="249"
+              data-image="https://images.pexels.com/photos/1117862/pexels-photo-1117862.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="thepla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/2801114/pexels-photo-2801114.jpeg"
+              alt="Masala Thepla"
+            />
+            <span class="product-tag">Spicy</span>
+          </div>
+          <div class="product-info">
+            <h3>Masala Thepla</h3>
+            <p>Spicy flavored traditional flatbread</p>
+            <div class="product-price">
+              <span class="price">₹229</span>
+              <span class="weight">/ 500g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Masala Thepla"
+              data-price="229"
+              data-image="https://images.pexels.com/photos/2801114/pexels-photo-2801114.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="thepla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/2801115/pexels-photo-2801115.jpeg"
+              alt="Palak Thepla"
+            />
+            <span class="product-tag">Healthy</span>
+          </div>
+          <div class="product-info">
+            <h3>Palak Thepla</h3>
+            <p>Nutritious spinach flatbread</p>
+            <div class="product-price">
+              <span class="price">₹239</span>
+              <span class="weight">/ 500g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Palak Thepla"
+              data-price="239"
+              data-image="https://images.pexels.com/photos/2801115/pexels-photo-2801115.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="thepla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/2801116/pexels-photo-2801116.jpeg"
+              alt="Dudhi Thepla"
+            />
+            <span class="product-tag">Special</span>
+          </div>
+          <div class="product-info">
+            <h3>Dudhi Thepla</h3>
+            <p>Bottle gourd infused soft flatbread</p>
+            <div class="product-price">
+              <span class="price">₹219</span>
+              <span class="weight">/ 500g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Dudhi Thepla"
+              data-price="219"
+              data-image="https://images.pexels.com/photos/2801116/pexels-photo-2801116.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="thepla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/2801117/pexels-photo-2801117.jpeg"
+              alt="Multi-Grain Thepla"
+            />
+            <span class="product-tag">Premium</span>
+          </div>
+          <div class="product-info">
+            <h3>Multi-Grain Thepla</h3>
+            <p>Healthy mix of different flours</p>
+            <div class="product-price">
+              <span class="price">₹259</span>
+              <span class="weight">/ 500g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Multi-Grain Thepla"
+              data-price="259"
+              data-image="https://images.pexels.com/photos/2801117/pexels-photo-2801117.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="thepla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/2801118/pexels-photo-2801118.jpeg"
+              alt="Plain Thepla"
+            />
+            <span class="product-tag">Classic</span>
+          </div>
+          <div class="product-info">
+            <h3>Plain Thepla</h3>
+            <p>Traditional plain wheat flatbread</p>
+            <div class="product-price">
+              <span class="price">₹199</span>
+              <span class="weight">/ 500g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Plain Thepla"
+              data-price="199"
+              data-image="https://images.pexels.com/photos/2801118/pexels-photo-2801118.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Sweets Products (6 items) -->
+        <div class="product-card" data-category="sweets">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg"
+              alt="Gujarati Sweets"
+            />
+            <span class="product-tag">Special</span>
+          </div>
+          <div class="product-info">
+            <h3>Gujarati Sweets Box</h3>
+            <p>Assorted traditional sweets</p>
+            <div class="product-price">
+              <span class="price">₹399</span>
+              <span class="weight">/ Box</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Gujarati Sweets Box"
+              data-price="399"
+              data-image="https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="sweets">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/3338682/pexels-photo-3338682.jpeg"
+              alt="Mohanthal"
+            />
+            <span class="product-tag">Traditional</span>
+          </div>
+          <div class="product-info">
+            <h3>Mohanthal</h3>
+            <p>Rich gram flour fudge with nuts</p>
+            <div class="product-price">
+              <span class="price">₹449</span>
+              <span class="weight">/ 500g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Mohanthal"
+              data-price="449"
+              data-image="https://images.pexels.com/photos/3338682/pexels-photo-3338682.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Additional Sweets Products -->
+        <div class="product-card" data-category="sweets">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/3338683/pexels-photo-3338683.jpeg"
+              alt="Kaju Katli"
+            />
+            <span class="product-tag">Premium</span>
+          </div>
+          <div class="product-info">
+            <h3>Kaju Katli</h3>
+            <p>Diamond-shaped cashew delicacy</p>
+            <div class="product-price">
+              <span class="price">₹599</span>
+              <span class="weight">/ 500g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Kaju Katli"
+              data-price="599"
+              data-image="https://images.pexels.com/photos/3338683/pexels-photo-3338683.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="sweets">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/3338684/pexels-photo-3338684.jpeg"
+              alt="Surti Ghari"
+            />
+            <span class="product-tag">Must Try</span>
+          </div>
+          <div class="product-info">
+            <h3>Surti Ghari</h3>
+            <p>Traditional Surat special sweet</p>
+            <div class="product-price">
+              <span class="price">₹349</span>
+              <span class="weight">/ 500g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Surti Ghari"
+              data-price="349"
+              data-image="https://images.pexels.com/photos/3338684/pexels-photo-3338684.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="sweets">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/3338685/pexels-photo-3338685.jpeg"
+              alt="Basundi"
+            />
+            <span class="product-tag">Fresh Daily</span>
+          </div>
+          <div class="product-info">
+            <h3>Basundi</h3>
+            <p>Rich condensed milk dessert</p>
+            <div class="product-price">
+              <span class="price">₹199</span>
+              <span class="weight">/ 500ml</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Basundi"
+              data-price="199"
+              data-image="https://images.pexels.com/photos/3338685/pexels-photo-3338685.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="sweets">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/3338686/pexels-photo-3338686.jpeg"
+              alt="Dry Fruit Ladoo"
+            />
+            <span class="product-tag">Healthy</span>
+          </div>
+          <div class="product-info">
+            <h3>Dry Fruit Ladoo</h3>
+            <p>Nutritious mixed dry fruit balls</p>
+            <div class="product-price">
+              <span class="price">₹499</span>
+              <span class="weight">/ 500g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Dry Fruit Ladoo"
+              data-price="499"
+              data-image="https://images.pexels.com/photos/3338686/pexels-photo-3338686.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Dhokla Products (6 items) -->
+        <div class="product-card" data-category="dhokla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/15913452/pexels-photo-15913452.jpeg"
+              alt="Khaman Dhokla"
+            />
+            <span class="product-tag">Must Try</span>
+          </div>
+          <div class="product-info">
+            <h3>Khaman Dhokla</h3>
+            <p>Soft and spongy steamed snack</p>
+            <div class="product-price">
+              <span class="price">₹129</span>
+              <span class="weight">/ 250g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Khaman Dhokla"
+              data-price="129"
+              data-image="https://images.pexels.com/photos/15913452/pexels-photo-15913452.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="dhokla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/15913453/pexels-photo-15913453.jpeg"
+              alt="Nylon Khaman"
+            />
+            <span class="product-tag">Best Seller</span>
+          </div>
+          <div class="product-info">
+            <h3>Nylon Khaman</h3>
+            <p>Super soft and fluffy dhokla</p>
+            <div class="product-price">
+              <span class="price">₹139</span>
+              <span class="weight">/ 250g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Nylon Khaman"
+              data-price="139"
+              data-image="https://images.pexels.com/photos/15913453/pexels-photo-15913453.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Additional Dhokla Products -->
+        <div class="product-card" data-category="dhokla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/15913454/pexels-photo-15913454.jpeg"
+              alt="Sandwich Dhokla"
+            />
+            <span class="product-tag">New</span>
+          </div>
+          <div class="product-info">
+            <h3>Sandwich Dhokla</h3>
+            <p>Layered dhokla with spicy filling</p>
+            <div class="product-price">
+              <span class="price">₹149</span>
+              <span class="weight">/ 250g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Sandwich Dhokla"
+              data-price="149"
+              data-image="https://images.pexels.com/photos/15913454/pexels-photo-15913454.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="dhokla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/15913455/pexels-photo-15913455.jpeg"
+              alt="Rava Dhokla"
+            />
+            <span class="product-tag">Healthy</span>
+          </div>
+          <div class="product-info">
+            <h3>Rava Dhokla</h3>
+            <p>Semolina based steamed snack</p>
+            <div class="product-price">
+              <span class="price">₹119</span>
+              <span class="weight">/ 250g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Rava Dhokla"
+              data-price="119"
+              data-image="https://images.pexels.com/photos/15913455/pexels-photo-15913455.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="dhokla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/15913456/pexels-photo-15913456.jpeg"
+              alt="Mixed Dal Dhokla"
+            />
+            <span class="product-tag">Special</span>
+          </div>
+          <div class="product-info">
+            <h3>Mixed Dal Dhokla</h3>
+            <p>Protein-rich lentil dhokla</p>
+            <div class="product-price">
+              <span class="price">₹159</span>
+              <span class="weight">/ 250g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Mixed Dal Dhokla"
+              data-price="159"
+              data-image="https://images.pexels.com/photos/15913456/pexels-photo-15913456.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="product-card" data-category="dhokla">
+          <div class="product-image">
+            <img
+              src="https://images.pexels.com/photos/15913457/pexels-photo-15913457.jpeg"
+              alt="Masala Dhokla"
+            />
+            <span class="product-tag">Spicy</span>
+          </div>
+          <div class="product-info">
+            <h3>Masala Dhokla</h3>
+            <p>Extra spicy flavored dhokla</p>
+            <div class="product-price">
+              <span class="price">₹139</span>
+              <span class="weight">/ 250g</span>
+            </div>
+            <button
+              class="buy-now"
+              data-product="Masala Dhokla"
+              data-price="139"
+              data-image="https://images.pexels.com/photos/15913457/pexels-photo-15913457.jpeg"
+            >
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- See More Button -->
+      <div class="see-more-container">
+        <button class="see-more-btn" style="display: none">See More</button>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-card">
+            <i class="fas fa-phone-alt"></i>
+            <h3>Call Us</h3>
+            <p>+91 95092 64338</p>
+            <a href="tel:+919509264338" class="contact-btn">Call Now</a>
+          </div>
+
+          <div class="contact-card">
+            <i class="fas fa-envelope"></i>
+            <h3>Email Us</h3>
+            <p>contact@gujaratfarsan.com</p>
+            <a href="mailto:contact@gujaratfarsan.com" class="contact-btn"
+              >Send Email</a
+            >
+          </div>
+
+          <div class="contact-card">
+            <i class="fas fa-map-marker-alt"></i>
+            <h3>Visit Us</h3>
+            <p>123, Gujarat Street, Ahmedabad, Gujarat - 380001</p>
+            <a
+              href="https://maps.google.com"
+              target="_blank"
+              class="contact-btn"
+              >Get Directions</a
+            >
+          </div>
+        </div>
+
+        <div class="social-connect">
+          <h3>Follow Us On Social Media</h3>
+          <div class="social-grid">
+            <a href="#" class="social-card facebook">
+              <div class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </div>
+              <div class="social-info">
+                <span class="social-name">Facebook</span>
+                <span class="social-handle">@gujaratfarsan</span>
+              </div>
+            </a>
+            <a href="#" class="social-card instagram">
+              <div class="social-icon">
+                <i class="fab fa-instagram"></i>
+              </div>
+              <div class="social-info">
+                <span class="social-name">Instagram</span>
+                <span class="social-handle">@gujaratfarsan</span>
+              </div>
+            </a>
+            <a href="#" class="social-card twitter">
+              <div class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </div>
+              <div class="social-info">
+                <span class="social-name">Twitter</span>
+                <span class="social-handle">@gujaratfarsan</span>
+              </div>
+            </a>
+            <a href="#" class="social-card whatsapp">
+              <div class="social-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="social-info">
+                <span class="social-name">WhatsApp</span>
+                <span class="social-handle">+91 95092 64338</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+          <path
+            fill="#ff6b6b"
+            fill-opacity="0.1"
+            d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+          ></path>
+        </svg>
+      </div>
+
+      <div class="footer-container">
+        <div class="footer-top">
+          <div class="footer-logo-section">
+            <div class="footer-logo">
+              <span class="logo-text">
+                Gujarati<span class="accent">Farsan</span>
+              </span>
+            </div>
+            <div class="footer-social-icons">
+              <a
+                href="https://facebook.com/gujaratfarsan"
+                class="social-icon"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a
+                href="https://instagram.com/gujaratfarsan"
+                class="social-icon"
+                aria-label="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a
+                href="https://youtube.com/@gujaratfarsan"
+                class="social-icon"
+                aria-label="YouTube"
+              >
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a
+                href="https://wa.me/919509264338"
+                class="social-icon"
+                aria-label="WhatsApp"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-links">
+            <h4>Explore</h4>
+            <div class="quick-links">
+              <div class="link-column">
+                <a href="#home" class="quick-link">
+                  <div class="link-content">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                  </div>
+                  <i class="fas fa-arrow-right link-arrow"></i>
+                </a>
+                <a href="#about" class="quick-link">
+                  <div class="link-content">
+                    <i class="fas fa-info-circle"></i>
+                    <span>About Us</span>
+                  </div>
+                  <i class="fas fa-arrow-right link-arrow"></i>
+                </a>
+              </div>
+              <div class="link-column">
+                <a href="#products" class="quick-link">
+                  <div class="link-content">
+                    <i class="fas fa-box"></i>
+                    <span>Products</span>
+                  </div>
+                  <i class="fas fa-arrow-right link-arrow"></i>
+                </a>
+                <a href="#contact" class="quick-link">
+                  <div class="link-content">
+                    <i class="fas fa-phone"></i>
+                    <span>Contact</span>
+                  </div>
+                  <i class="fas fa-arrow-right link-arrow"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div class="copyright">
+            <p class="copyright-text">
+              &copy; 2024 Gujarati Farsan Express. All rights reserved.
+            </p>
+            <div class="made-with">
+              Made with <i class="fas fa-heart pulse"></i> in India
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- WhatsApp Button -->
+    <a
+      href="https://wa.me/919509264338"
+      class="whatsapp-button"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
